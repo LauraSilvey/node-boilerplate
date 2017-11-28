@@ -5,15 +5,16 @@ express = require("express"),
 app = express();
 
 //change 'boiler-plate' to name of app.
-mongoose.connect("mongodb://localhost/boiler-plate", {useMongoClient: true});
+mongoose.connect("mongodb://localhost/boilerplate", {useMongoClient: true});
 app.set("view engine", "ejs");
-//to access custom stylesheets
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
+app.use(methodOverride("_method"));
+
 
 
 app.get("/", function(req, res){
-  res.render("home");
+  res.render("index");
 });
 
 app.listen(3000);
