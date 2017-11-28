@@ -1,7 +1,8 @@
-var bodyParser = require("body-parser");
-var mongoose = require("mongoose");
-var express = require("express");
-var app = express();
+var bodyParser = require("body-parser"),
+methodOverride = require("method-override"),
+mongoose = require("mongoose"),
+express = require("express"),
+app = express();
 
 //change 'boiler-plate' to name of app.
 mongoose.connect("mongodb://localhost/boiler-plate", {useMongoClient: true});
