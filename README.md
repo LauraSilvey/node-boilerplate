@@ -8,5 +8,21 @@ To start project, run:
 npm install
 
 node app.js
-```
+``` 
+
+### Dependencies Info
+
+#### Express
+
+Express is a JavaScript server-side web application framework used with Node.js.  The framework itself is lightweight and flexible with many features available as plugins.
+
+#### EJS
+
+EJS is a templating language that lets you generate HTML with plain Javascript.  
+
+#### Mongoose
+ 
+Mongoose is a JavaScript framework typically used with Node.JS and MongoDB to be used as an object modeling tool.  It offers functionality for creating and working with schemas.
+
+
 
