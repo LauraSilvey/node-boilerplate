@@ -22,7 +22,7 @@ EJS is a templating language that lets you generate HTML with plain Javascript.
 
 #### Mongoose
  
-Mongoose is a JavaScript framework typically used with Node.JS and MongoDB to be used as an object modeling tool.  It offers functionality for creating and working with schemas.
+Mongoose is a JavaScript framework typically used with Node.JS and MongoDB. This object modeling tool offers functionality for creating and working with schemas.
 
 
 
